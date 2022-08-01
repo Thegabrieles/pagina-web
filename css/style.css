@@ -1,0 +1,85 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 232, 234);
+}
+
+.container {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 20px 50px;
+    margin: 50px;
+    background-color: #FFF;
+}
+
+.destaque {
+    font-weight: bold;
+    color: rgb(180, 197, 245);
+}
+
+/* Cabeçalho */
+
+.cabeçalho {
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 40px;
+}
+
+.paragrafo-principal {
+    font-style: italic;
+}
+
+/* Corpo do Site */
+
+.img-destaque {
+    text-align: center;
+    margin-top: 30px;
+}
+
+img {
+    border-radius: 2px;
+}
+
+/* Biografia */
+
+.biografia-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed rgb(180, 197, 245);
+    border-bottom: 1px dashed rgb(180, 197, 245);
+}
+
+/* Citações */
+
+.frase-container {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-radius: 2px;
+    padding: 30px;
+    text-align: center;
+}
+
+.frase-container blockquote {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.frase-container p {
+    font-style: italic;
+}
+
+/* Curiosidades */
+
+.curiosidades-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed rgb(180, 197, 245);
+    border-bottom: 1px dashed rgb(180, 197, 245);
+}
+
+.curiosidades-container li {
+    height: 30px;
+}
